@@ -50,8 +50,6 @@ body {
 .he-IL {
   font-family: 'New Peninim MT', 'Arial Hebrew', Gisha, 'Times New Roman', Roboto, Noto,
     'Noto Sans Hebrew', sans-serif !important;
-  display: inline-block;
-  direction: rtl;
 }
 
 *,
@@ -145,6 +143,9 @@ svg {
 
 .container {
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .row {

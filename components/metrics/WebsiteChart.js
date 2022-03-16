@@ -5,14 +5,15 @@ import MetricsBar from './MetricsBar';
 import WebsiteHeader from './WebsiteHeader';
 import DateFilter from 'components/common/DateFilter';
 import StickyHeader from 'components/helpers/StickyHeader';
+import ErrorMessage from 'components/common/ErrorMessage';
+import FilterTags from 'components/metrics/FilterTags';
 import useFetch from 'hooks/useFetch';
 import useDateRange from 'hooks/useDateRange';
 import useTimezone from 'hooks/useTimezone';
 import usePageQuery from 'hooks/usePageQuery';
-import { getDateArray, getDateLength } from 'lib/date';
-import ErrorMessage from 'components/common/ErrorMessage';
-import FilterTags from 'components/metrics/FilterTags';
+import { getDateArray, getDateLength, getDateRangeValues } from 'lib/date';
 import useShareToken from 'hooks/useShareToken';
+import useApi from 'hooks/useApi';
 import { TOKEN_HEADER } from 'lib/constants';
 import styles from './WebsiteChart.module.css';
 
@@ -22,7 +23,7 @@ export default function WebsiteChart({
   domain,
   stickyHeader = false,
   showLink = false,
-  hideChart = false,
+  showChart = true,
   onDataLoad = () => {},
 }) {
   const shareToken = useShareToken();
@@ -34,9 +35,10 @@ export default function WebsiteChart({
     resolve,
     query: { url, ref },
   } = usePageQuery();
+  const { get } = useApi();
 
   const { data, loading, error } = useFetch(
-    `/api/website/${websiteId}/pageviews`,
+    `/website/${websiteId}/pageviews`,
     {
       params: {
         start_at: +startDate,
@@ -60,10 +62,21 @@ export default function WebsiteChart({
       };
     }
     return { pageviews: [], sessions: [] };
-  }, [data]);
+  }, [data, startDate, endDate, unit]);
 
   function handleCloseFilter(param) {
     router.push(resolve({ [param]: undefined }));
+  }
+
+  async function handleDateChange(value) {
+    if (value === 'all') {
+      const { data, ok } = await get(`/website/${websiteId}`);
+      if (ok) {
+        setDateRange({ value, ...getDateRangeValues(new Date(data.created_at), Date.now()) });
+      }
+    } else {
+      setDateRange(value);
+    }
   }
 
   return (
@@ -84,7 +97,7 @@ export default function WebsiteChart({
               value={value}
               startDate={startDate}
               endDate={endDate}
-              onChange={setDateRange}
+              onChange={handleDateChange}
             />
           </div>
         </StickyHeader>
@@ -92,7 +105,7 @@ export default function WebsiteChart({
       <div className="row">
         <div className={classNames(styles.chart, 'col')}>
           {error && <ErrorMessage />}
-          {!hideChart && (
+          {showChart && (
             <PageviewsChart
               websiteId={websiteId}
               data={chartData}
