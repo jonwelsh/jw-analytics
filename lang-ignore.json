@@ -9,6 +9,7 @@
     "metrics.device.tablet",
     "metrics.referrers"
   ],
+  "en-GB": "*",
   "fr-FR": ["metrics.actions", "metrics.pages"],
   "lt-LT": [
     "metrics.device.desktop",
