@@ -61,6 +61,7 @@
     "@fontsource/inter": "^4.5.15",
     "@prisma/client": "4.13.0",
     "@tanstack/react-query": "^4.16.1",
+    "@umami/migrate-v1-v2": "^0.15.0",
     "@umami/prisma-client": "^0.2.0",
     "@umami/redis-client": "^0.2.0",
     "chalk": "^4.1.1",
