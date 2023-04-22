@@ -44,11 +44,6 @@ export interface NextApiRequestCollect extends NextApiRequest {
 
 export default async (req: NextApiRequestCollect, res: NextApiResponse) => {
   await useCors(req, res);
-  const { method } = req;
-
-  if (method === 'OPTIONS') {
-    return res.status(200).send('ok');
-  }
 
   if (isbot(req.headers['user-agent']) && !process.env.DISABLE_BOT_CHECK) {
     return ok(res);
