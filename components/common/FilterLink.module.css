@@ -4,17 +4,17 @@
 }
 
 .row .inactive {
-  color: var(--gray500);
+  color: var(--base500);
 }
 
 .row .active {
-  color: var(--gray900);
+  color: var(--base900);
   font-weight: 600;
 }
 
 .row .link {
   display: none;
-  margin-left: 20px;
+  margin-inline-start: 20px;
 }
 
 .row .label {
