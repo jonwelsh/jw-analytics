@@ -1,3 +1,3 @@
-import Page from 'app/(main)/websites/[websiteId]/event-data/page';
+import Page from 'app/(main)/websites/[websiteId]/events/page';
 
 export default Page;
