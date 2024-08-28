@@ -11,7 +11,7 @@
       "value": "Działania"
     }
   ],
-  "label.activity-log": [
+  "label.activity": [
     {
       "type": 0,
       "value": "Dziennik aktywności"
@@ -158,7 +158,7 @@
   "label.compare": [
     {
       "type": 0,
-      "value": "Compare"
+      "value": "Porównaj"
     }
   ],
   "label.confirm": [
@@ -188,7 +188,7 @@
   "label.count": [
     {
       "type": 0,
-      "value": "Count"
+      "value": "Liczba"
     }
   ],
   "label.countries": [
@@ -242,7 +242,7 @@
   "label.current": [
     {
       "type": 0,
-      "value": "Current"
+      "value": "Aktualny"
     }
   ],
   "label.current-password": [
@@ -404,7 +404,7 @@
   "label.end-step": [
     {
       "type": 0,
-      "value": "End Step"
+      "value": "Krok końcowy"
     }
   ],
   "label.entry": [
@@ -434,7 +434,7 @@
   "label.exit": [
     {
       "type": 0,
-      "value": "Exit URL"
+      "value": "URL wyjściowy"
     }
   ],
   "label.false": [
@@ -479,6 +479,12 @@
       "value": "Filtry"
     }
   ],
+  "label.first-seen": [
+    {
+      "type": 0,
+      "value": "First seen"
+    }
+  ],
   "label.funnel": [
     {
       "type": 0,
@@ -494,13 +500,13 @@
   "label.goal": [
     {
       "type": 0,
-      "value": "Goal"
+      "value": "Cel"
     }
   ],
   "label.goals": [
     {
       "type": 0,
-      "value": "Goals"
+      "value": "Cele"
     }
   ],
   "label.goals-description": [
@@ -530,7 +536,7 @@
   "label.hosts": [
     {
       "type": 0,
-      "value": "Hosts"
+      "value": "Hosty"
     }
   ],
   "label.insights": [
@@ -584,13 +590,13 @@
   "label.journey": [
     {
       "type": 0,
-      "value": "Journey"
+      "value": "Droga"
     }
   ],
   "label.journey-description": [
     {
       "type": 0,
-      "value": "Understand how users nagivate through your website."
+      "value": "Zrozum, w jaki sposób użytkownicy poruszają się po Twojej witrynie."
     }
   ],
   "label.language": [
@@ -651,6 +657,12 @@
     {
       "type": 0,
       "value": " miesięcy"
+    }
+  ],
+  "label.last-seen": [
+    {
+      "type": 0,
+      "value": "Last seen"
     }
   ],
   "label.leave": [
@@ -867,6 +879,18 @@
       "value": "Hasło"
     }
   ],
+  "label.path": [
+    {
+      "type": 0,
+      "value": "Path"
+    }
+  ],
+  "label.paths": [
+    {
+      "type": 0,
+      "value": "Paths"
+    }
+  ],
   "label.powered-by": [
     {
       "type": 0,
@@ -880,25 +904,31 @@
   "label.previous": [
     {
       "type": 0,
-      "value": "Previous"
+      "value": "Poprzedni"
     }
   ],
   "label.previous-period": [
     {
       "type": 0,
-      "value": "Previous period"
+      "value": "Poprzedni okres"
     }
   ],
   "label.previous-year": [
     {
       "type": 0,
-      "value": "Previous year"
+      "value": "Poprzedni rok"
     }
   ],
   "label.profile": [
     {
       "type": 0,
       "value": "Profil"
+    }
+  ],
+  "label.properties": [
+    {
+      "type": 0,
+      "value": "Properties"
     }
   ],
   "label.property": [
@@ -934,7 +964,7 @@
   "label.referrer": [
     {
       "type": 0,
-      "value": "Referrer"
+      "value": "Źródło odsyłające"
     }
   ],
   "label.referrers": [
@@ -976,7 +1006,7 @@
   "label.remove-member": [
     {
       "type": 0,
-      "value": "Remove member"
+      "value": "Usuń członka"
     }
   ],
   "label.reports": [
@@ -1013,6 +1043,24 @@
     {
       "type": 0,
       "value": "Mierz przyciągającą siłę swojej strony internetowej, śledząc, jak często użytkownicy powracają."
+    }
+  ],
+  "label.revenue": [
+    {
+      "type": 0,
+      "value": "Revenue"
+    }
+  ],
+  "label.revenue-description": [
+    {
+      "type": 0,
+      "value": "Look into your revenue across time."
+    }
+  ],
+  "label.revenue-property": [
+    {
+      "type": 0,
+      "value": "Revenue Property"
     }
   ],
   "label.role": [
@@ -1069,6 +1117,12 @@
       "value": "Wybierz witrynę"
     }
   ],
+  "label.session": [
+    {
+      "type": 0,
+      "value": "Session"
+    }
+  ],
   "label.sessions": [
     {
       "type": 0,
@@ -1096,7 +1150,7 @@
   "label.start-step": [
     {
       "type": 0,
-      "value": "Start Step"
+      "value": "Krok startowy"
     }
   ],
   "label.steps": [
@@ -1237,6 +1291,12 @@
       "value": "Kod śledzenia"
     }
   ],
+  "label.transactions": [
+    {
+      "type": 0,
+      "value": "Transactions"
+    }
+  ],
   "label.transfer": [
     {
       "type": 0,
@@ -1273,6 +1333,12 @@
       "value": "Unikalni odwiedzający"
     }
   ],
+  "label.uniqueCustomers": [
+    {
+      "type": 0,
+      "value": "Unique Customers"
+    }
+  ],
   "label.unknown": [
     {
       "type": 0,
@@ -1307,6 +1373,12 @@
     {
       "type": 0,
       "value": "Użytkownik"
+    }
+  ],
+  "label.user-property": [
+    {
+      "type": 0,
+      "value": "User Property"
     }
   ],
   "label.username": [
@@ -1384,7 +1456,7 @@
   "label.visits": [
     {
       "type": 0,
-      "value": "Odwiedząjący"
+      "value": "Wizyty"
     }
   ],
   "label.website": [
@@ -1468,7 +1540,7 @@
   "message.collected-data": [
     {
       "type": 0,
-      "value": "Collected data"
+      "value": "Zebrane dane"
     }
   ],
   "message.confirm-delete": [

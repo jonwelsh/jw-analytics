@@ -11,7 +11,7 @@
       "value": "Дії"
     }
   ],
-  "label.activity-log": [
+  "label.activity": [
     {
       "type": 0,
       "value": "Журнал"
@@ -389,6 +389,24 @@
       "value": "Редагувати"
     }
   ],
+  "label.edit-dashboard": [
+    {
+      "type": 0,
+      "value": "Edit dashboard"
+    }
+  ],
+  "label.edit-member": [
+    {
+      "type": 0,
+      "value": "Edit member"
+    }
+  ],
+  "label.enable-share-url": [
+    {
+      "type": 0,
+      "value": "Enable share URL"
+    }
+  ],
   "label.end-step": [
     {
       "type": 0,
@@ -465,6 +483,12 @@
     {
       "type": 0,
       "value": "Фільтри"
+    }
+  ],
+  "label.first-seen": [
+    {
+      "type": 0,
+      "value": "First seen"
     }
   ],
   "label.funnel": [
@@ -578,7 +602,7 @@
   "label.journey-description": [
     {
       "type": 0,
-      "value": "Understand how users nagivate through your website."
+      "value": "Understand how users navigate through your website."
     }
   ],
   "label.language": [
@@ -641,6 +665,12 @@
       "value": " місяців"
     }
   ],
+  "label.last-seen": [
+    {
+      "type": 0,
+      "value": "Last seen"
+    }
+  ],
   "label.leave": [
     {
       "type": 0,
@@ -681,6 +711,12 @@
     {
       "type": 0,
       "value": "Керувати"
+    }
+  ],
+  "label.manager": [
+    {
+      "type": 0,
+      "value": "Manager"
     }
   ],
   "label.max": [
@@ -849,6 +885,18 @@
       "value": "Пароль"
     }
   ],
+  "label.path": [
+    {
+      "type": 0,
+      "value": "Path"
+    }
+  ],
+  "label.paths": [
+    {
+      "type": 0,
+      "value": "Paths"
+    }
+  ],
   "label.powered-by": [
     {
       "type": 0,
@@ -881,6 +929,12 @@
     {
       "type": 0,
       "value": "Профіль"
+    }
+  ],
+  "label.properties": [
+    {
+      "type": 0,
+      "value": "Properties"
     }
   ],
   "label.property": [
@@ -997,6 +1051,24 @@
       "value": "Виміряйте липкість вашого сайту, відстежуючи, як часто користувачі повертаються на нього."
     }
   ],
+  "label.revenue": [
+    {
+      "type": 0,
+      "value": "Revenue"
+    }
+  ],
+  "label.revenue-description": [
+    {
+      "type": 0,
+      "value": "Look into your revenue across time."
+    }
+  ],
+  "label.revenue-property": [
+    {
+      "type": 0,
+      "value": "Revenue Property"
+    }
+  ],
   "label.role": [
     {
       "type": 0,
@@ -1049,6 +1121,12 @@
     {
       "type": 0,
       "value": "Вибрати сайт"
+    }
+  ],
+  "label.session": [
+    {
+      "type": 0,
+      "value": "Session"
     }
   ],
   "label.sessions": [
@@ -1109,6 +1187,12 @@
     {
       "type": 0,
       "value": "Ідентифікатор команди"
+    }
+  ],
+  "label.team-manager": [
+    {
+      "type": 0,
+      "value": "Team manager"
     }
   ],
   "label.team-member": [
@@ -1213,6 +1297,12 @@
       "value": "Код для відслідковування"
     }
   ],
+  "label.transactions": [
+    {
+      "type": 0,
+      "value": "Transactions"
+    }
+  ],
   "label.transfer": [
     {
       "type": 0,
@@ -1247,6 +1337,12 @@
     {
       "type": 0,
       "value": "Унікальні відвідувачі"
+    }
+  ],
+  "label.uniqueCustomers": [
+    {
+      "type": 0,
+      "value": "Unique Customers"
     }
   ],
   "label.unknown": [
@@ -1289,6 +1385,12 @@
     {
       "type": 0,
       "value": "Користувач"
+    }
+  ],
+  "label.user-property": [
+    {
+      "type": 0,
+      "value": "User Property"
     }
   ],
   "label.username": [
@@ -1361,6 +1463,12 @@
     {
       "type": 0,
       "value": "Перегляди за одне відвідування"
+    }
+  ],
+  "label.visit-duration": [
+    {
+      "type": 0,
+      "value": "Visit duration"
     }
   ],
   "label.visitors": [
